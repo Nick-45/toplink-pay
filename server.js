@@ -1,6 +1,7 @@
 // In your frontend payment handler
 try {
-  const response = await fetch("https://yourdomain.com/stkpush", {
+  const response = await fetch("https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest
+", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ 
